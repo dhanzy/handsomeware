@@ -56,3 +56,9 @@ python main.py
 - Scramble phase: Files are scrambled when time runs out.
 - Unlock: Entering the correct passcode stops the scrambling.
 - Reset: Removes all state and starts fresh.
+
+### Inspired by kalle Hallden on a previous work
+
+> Download Categorizer
+
+[https://github.com/dhanzy/DownloadCategorizer](https://github.com/dhanzy/DownloadCategorizer)
