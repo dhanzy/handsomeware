@@ -25,7 +25,7 @@ class Config:
         self.button_text: str = data.get("button_text", "Submit")
         self.content_path: dict = data.get("content_path", {})
         self.dst_path = data.get("dst_path", os.environ.get("HOME"))
-        self.src_path = data.get("dst_path", os.environ.get("HOME"))
+        self.src_path = data.get("src_path", os.environ.get("HOME"))
         self.time_limit = data.get("time_limit", 120)
         self.paths_to_watch = [
             os.path.join(self.src_path, p) for p in data.get("paths_to_watch", [])
